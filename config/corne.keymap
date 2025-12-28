@@ -36,9 +36,9 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&none  &kp ESC   &kp N2  &kp N3    &kp N4  &kp N5       &kp SINGLE_QUOTE  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0     &none
-&none  &kp TAB   &trans  &trans    &trans  &trans       &kp MINUS         &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH   &none
-&none  &kp CAPS  &trans  &trans    &trans  &trans       &kp UNDER         &kp PLUS   &kp LBRC              &kp RBRC               &kp SLASH  &none
+&none  &kp ESC   &kp N2  &kp N3    &kp N4  &kp N5       &kp SINGLE_QUOTE  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0         &none
+&none  &kp TAB   &trans  &trans    &trans  &trans       &kp MINUS         &kp EQUAL  &kp LBKT              &kp RBKT               &kp DEL        &none
+&none  &kp CAPS  &trans  &trans    &trans  &trans       &kp UNDER         &kp PLUS   &kp LBRC              &kp RBRC               &kp BACKSLASH  &none
                          &kp LGUI  &trans  &kp SPACE    &kp RET           &mo 3      &kp RALT
             >;
         };
