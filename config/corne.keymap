@@ -24,7 +24,7 @@
         };
 
         raise_layer {
-            display-name = "Raise Layer";
+            display-name = "Raise";
             bindings = <
 &none  &kp EXCL         &kp AT           &kp HASH         &kp DLLR         &kp PRCNT          &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &none
 &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp BSPC  &none
@@ -34,11 +34,11 @@
         };
 
         lower_layer {
-            display-name = "Lower Layer";
+            display-name = "Lower";
             bindings = <
-&none  &kp CAPS  &kp N2  &kp N3    &kp N4  &kp N5       &kp SINGLE_QUOTE  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0     &none
+&none  &kp ESC  &kp N2  &kp N3    &kp N4  &kp N5       &kp SINGLE_QUOTE  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0     &none
 &none  &kp TAB   &trans  &trans    &trans  &trans       &kp MINUS         &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH   &none
-&none  &trans    &trans  &trans    &trans  &trans       &kp UNDER         &kp PLUS   &kp LBRC              &kp RBRC               &kp SLASH  &none
+&none  &kp CAPS    &trans  &trans    &trans  &trans       &kp UNDER         &kp PLUS   &kp LBRC              &kp RBRC               &kp SLASH  &none
                          &kp LGUI  &trans  &kp SPACE    &kp RET           &mo 3      &kp RALT
             >;
         };
